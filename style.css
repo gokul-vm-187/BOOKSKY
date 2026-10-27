@@ -148,3 +148,66 @@ nav{
     margin-right: 15px;
     cursor: pointer;
 }
+
+@media screen and (max-width:600px) {
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        overflow-x: hidden;
+    }
+    nav{
+        width: 100%;
+        padding: 15px;
+    }
+    .container0{
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .container1{
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 15px;
+        overflow-wrap: anywhere;
+    }
+    .container1 h2{
+        font-size: 20px;
+        overflow-wrap: break-word;
+    }
+    .container1 h4{
+        font-size: 16px;
+    }
+    .container1 p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .container1 button{
+        max-width: 100%;
+    }
+    .container2{
+        width: 70%;
+        margin: 0;
+        padding: 20px;
+        top: 23%;
+        left: 17%;
+    }
+    .container2 input, .container2 textarea{
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+    .container2 button{
+        margin: 5px;
+    }
+    .menu{
+        top: 85%;
+        left: 80%;
+    }
+}
